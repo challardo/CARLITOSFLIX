@@ -1,0 +1,105 @@
+html{
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+   
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    align-items: center;
+}
+.navbar a{
+
+color: #f3f3f3;
+text-decoration: none;
+padding: 0 20px 0 20px;
+font-size: 18px;
+
+}
+.navbar a:hover{
+    color: gray;
+}
+header{
+    top: 0%;
+    width:100%;
+    padding: 20px 20px 0 20px;
+    position: fixed;
+    background-color:  #141414;
+    display: grid;
+   
+}
+.catalogo{
+    margin-top: 100px;
+    padding: 20px 0 20px 20px;
+}
+h1{
+    font-size: 24px;
+    color: #f3f3f3;
+}
+.menu{
+    display: grid;
+  
+   
+}
+
+@media(max-width:900px){
+.column img{
+    display:grid;
+   flex: 50%;
+    position: static;
+
+    background-color: aqua;
+}
+}
+
+.box a img {
+    transition: transform .3s;  
+   
+  }
+.box a img:hover {
+   color: gray;
+   transition: transform .3s;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);  
+  transform: scale(1.1);
+
+  webkit-filter: blur(2px); 
+  filter: blur(2px);
+  }
+ 
+footer{
+    padding: 20px;
+    text-align: center;
+    color: #f3f3f3;
+    margin: 10px;
+}
+
+.grid-container {
+    
+    background-color: firebrick;
+  
+  }
+  .column a img {
+      align-content: center;
+    float: left; width: 15%; padding: 10px; 
+  }
+
+  p{
+    color: #f3f3f3;
+  }
+
+ 
+ .imgPeli{
+    top: 0%;
+     width: 20%;
+ }
+ .contenidoPeli{
+  text-align: justify;
+ }
+ 
+
+
